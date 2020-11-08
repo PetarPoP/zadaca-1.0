@@ -1,44 +1,67 @@
-html, body{
-    height: 100%;
-}
-header {
-    background-color:black;
-    padding: 15px;
-    text-align: center;
-    color:orangered;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17pt;
-  }
 body {
-    background-color: rgb(45, 45, 45);
-    padding: 20px;
-    height: 100%;
-}
-img {
-	height: 300px; 
-	width: auto;
-}
-article {
-    float: right;
-    padding: 20px;
-    width: 90%;
-    color: black;
-  }
-.ski1{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 13pt;
+    background-color: rgb(0, 0, 0);
+    font-family: Courier New, monospace;
     color: white;
-    margin: auto;
 }
-.ski2{
-    font-family: monospace;
+.sl {
+    border-radius: 50%;
+    margin-right: 50px;
+    height: 150px;
+    width: auto;
+}
+.div1 {
+    border-color: rgb(22, 211, 201);
+    border-bottom-style: solid;
+    border-width: 4px;
+    padding-top: 2px;
     font-size: 12pt;
-    color: white;
-    margin: auto;
+    height: 180px;
 }
-.ski3{
-    font-family: Arial, Helvetica, sans-serif;
+.div2 {
+    border-color: rgb(22, 211, 201);
+    border-bottom-style: solid;
+    padding-left: 25px;
+    padding-top: 15px;
+    border-width: 4px;
+    clear: left;
+}
+.div3 {
+    border-color:rgb(22, 211, 201);
+    border-bottom-style: solid;
+    padding-left: 25px;
+    padding-top: 15px;
+    border-width: 4px;
+}
+.div4 {
+    border-color: rgb(22, 211, 201);
+    border-bottom-style: solid;
+    padding-left: 25px;
+    padding-top: 15px;
+    border-width: 4px;
     font-size: 12pt;
-    color: white;
-    margin: auto;
+    height: 200px;
+}
+.div5 {
+    font-size: 12pt;
+    padding: 15px;
+}
+table {
+    border-spacing: 40px;
+    padding-left: 0;
+    font-size: 12pt;
+}
+th {
+    text-align: center;
+    font-weight: bold;
+}
+.krug {
+    background-color: rgb(123, 235, 49);
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 5px;
+    height: 25px;
+    width: 25px;
+}
+.kont {
+    width: 300px;
 }
